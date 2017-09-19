@@ -137,7 +137,7 @@ object playGame {
     println("Player been Hit "+playerPrem.currentHealth)
     println("Heeling now")
     Thread.sleep(60)
-    for (i <- 1 to 3) {
+    for (i <- 1 to 11) {
       playerPrem.applyHealing()
     }
     println("Moved to next level "+playerPrem.level)
